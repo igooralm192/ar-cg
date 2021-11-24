@@ -47,7 +47,7 @@ THREEAR.initialize({ source: source }).then((controller) => {
 	markerGroup.add(cube)
 
 	var patternMarker = new THREEAR.PatternMarker({
-		patternUrl: '../data/patt.hiro',
+		patternUrl: '../resources/THREEAR/data/patt.hiro',
 		markerObject: markerGroup
 	});
 
